@@ -8,7 +8,7 @@ namespace BinarySearchTree_BST_
 {
     internal class BinaryTree<T>where T : IComparable<T>
     {
-        public T NodeData { get; set; }
+        public T NodeData { get; set; } 
 
         //For left subtee
         public BinaryTree<T> LeftTree { get; set; }
